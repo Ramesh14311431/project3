@@ -14,13 +14,14 @@
     
 
 }
-.hr1{
+.hr{
     border-top: 2px solid black;
 }
 .back{
     color: gray;
     margin-right:20px ;
     font-size: 30px;
+  
 }
 .box{
     color: red;
@@ -44,8 +45,13 @@
     bottom: 10px;
     right: 10px;
 }
-.back{
+.back1{
     filter: blur(6px);
+    transform: translate(-50%,-50%); 
+    position: absolute;
+    top:50vh;
+    left: 50vw;
+    width: 100%;
    
 }
 .pop{
@@ -113,15 +119,8 @@
     .pop{
         width: 80%;
     }
-    .back{
-        width: 100%;
-        position: absolute;
-        top: 50vh;
-        left: 50vw;
-        
-       
-    }
+   
+
 }
 
     
-}
